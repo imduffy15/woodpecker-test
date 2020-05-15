@@ -1,0 +1,5 @@
+pipeline:
+  helloworld:
+    image: debian:buster-slim
+    commands:
+      - echo 'hello world'
